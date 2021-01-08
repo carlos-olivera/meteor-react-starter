@@ -1,0 +1,30 @@
+{
+  "name": "collecube-meteor-app",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "bootstrap": "^4.5.3",
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "meteor-node-stubs": "^1.0.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.8.5",
+    "react-router-dom": "^5.2.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "translations": {
+        "menu": {
+            "home":"Home",
+            "list":"List",
+            "add":"Add"
+        },
+        "dashboard": "Dashboard",
+        "login": "Log in",
+        "loginform": {
+            "email": "Email",
+            "password": "Password",
+            "rememberme": "Remember me",
+            "enterpassword": "Enter password",
+            "enteremail": "Enter Email",
+            "sigin": "Sign in",
+            "forgot": "Forgot"
+        }
+    }
+}

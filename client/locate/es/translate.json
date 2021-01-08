@@ -1,0 +1,21 @@
+
+{
+    "translations": {
+        "menu": {
+            "home":"Principal",
+            "list":"Listado",
+            "add":"Agregar"
+        },
+        "dashboard": "Panel principal",
+        "login": "Ingresar",
+        "loginform": {
+            "email": "Correo electrónico",
+            "password": "Contraseña",
+            "rememberme": "Recuerdame",
+            "enterpassword": "Ingrese password",
+            "enteremail": "Ingrese el email",
+            "sigin": "Ingresar",
+            "forgot": "Olvido el "
+        }
+    }
+}
